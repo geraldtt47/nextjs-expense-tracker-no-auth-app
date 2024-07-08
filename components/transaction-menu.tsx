@@ -134,7 +134,7 @@ export default function TransactionMenu({
   return (
     <div className="flex gap-4 mt-4">
       <div className="flex-col">
-        <div className="flex gap-4">
+        <div className="flex flex-col md:flex-row gap-4">
           <div className="flex-1">
             <Form {...form}>
               <form onSubmit={form.handleSubmit(onSubmit)}>
