@@ -8,10 +8,18 @@ export default function Home() {
 
   return (
     <BalanceProvider>
-      <ThemeModeToggle />
       <main className="flex min-h-screen flex-col items-center p-24">
-        <h1 className="text-4xl font-bold">Expense Tracker</h1>
-        <p className="text-lg">Track your expenses and manage your budget.</p>
+        <div className="flex flex-col justify-between md:flex-row">
+          <div className="flex flex-col justify-start">
+            <h1 className="text-4xl font-bold">Expense Tracker</h1>
+            <p className="text-lg">
+              Track your expenses and manage your budget.
+            </p>
+          </div>
+          <div className="flex">
+            <ThemeModeToggle />
+          </div>
+        </div>
         <Balance />
       </main>
     </BalanceProvider>
