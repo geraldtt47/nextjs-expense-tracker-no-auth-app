@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <BalanceProvider>
       <main className="flex min-h-screen flex-col items-center p-24">
-        <div className="flex flex-col justify-between md:flex-row">
+        <div className="flex flex-col md:gap-x-16 md:flex-row">
           <div className="flex flex-col justify-start">
             <h1 className="text-4xl font-bold">Expense Tracker</h1>
             <p className="text-lg">
