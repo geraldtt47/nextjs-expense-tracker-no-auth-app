@@ -40,7 +40,7 @@ export default function Balance() {
 
   return (
     <div className="flex flex-col items-center">
-      <div className="flex md:flex-col gap-4 mt-4">
+      <div className="flex flex-col md:flex-row gap-4 mt-4">
         <div className="flex-1">
           <Card className="w-[350] text-center bg-primary text-white">
             <CardHeader>
