@@ -16,7 +16,7 @@ export default function Home() {
               Track your expenses and manage your budget.
             </p>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center md:items-start">
             <ThemeModeToggle />
           </div>
         </div>

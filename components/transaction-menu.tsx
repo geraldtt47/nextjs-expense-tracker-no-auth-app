@@ -132,10 +132,10 @@ export default function TransactionMenu({
   };
 
   return (
-    <div className="flex gap-4 mt-4">
+    <div className="flex flex-col gap-4 mt-4">
       <div className="flex-col">
         <div className="flex flex-col md:flex-row gap-4">
-          <div className="flex-1">
+          <div className="flex-auto">
             <Form {...form}>
               <form onSubmit={form.handleSubmit(onSubmit)}>
                 <Card className="w-[350px]">
@@ -265,7 +265,7 @@ export default function TransactionMenu({
               </form>
             </Form>
           </div>
-          <div className="flex-1">
+          <div className="flex-auto">
             <Card className="w-[650px]">
               <CardHeader>
                 <CardTitle>Account Transactions</CardTitle>
