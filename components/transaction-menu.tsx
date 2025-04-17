@@ -45,8 +45,6 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
-const invalid_type_error = "Invalid type provided for this field.";
-const required_error = "This field cannot be blank.";
 
 // Transaction Form Schema
 const transactionFormSchema = z.object({
